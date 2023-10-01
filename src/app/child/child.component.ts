@@ -18,6 +18,7 @@ export class ChildComponent {
     setInterval(() => {
       this.number = Math.random();
       // this.cf.markForCheck();
+      // this.cf.detectChanges();
     }, 3000);
   }
 }
